@@ -85,7 +85,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
       return;
     }
     else{
-        xhr.open('POST', 'assets/php/process_form.php', true);
+        xhr.open('POST', 'files/php/process_form.php', true);
         xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
         xhr.onload = function () {
             if (xhr.status === 200) {
